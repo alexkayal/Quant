@@ -1,3 +1,9 @@
+# do next() on the 1m timeframe
+# buy if top of 1h/1d timeframe, set tp to certain value
+# close if closing criteria met (past full 1h/1d candle, 0 profit/loss)
+# try using same timeframe with simulated sell knowing we hit the price
+# simulate
+
 import backtrader as bt
 from datetime import datetime
 import pandas as pd
